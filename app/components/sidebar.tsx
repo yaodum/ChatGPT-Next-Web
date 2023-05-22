@@ -9,7 +9,7 @@ import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/bing.svg";
-import PluginIcon from "../icons/lightning.svg.svg";
+import PluginIcon from "../icons/lightning.svg";
 
 import Locale from "../locales";
 
