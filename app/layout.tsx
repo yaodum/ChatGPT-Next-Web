@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "ChatGPT公益站",
+  description: "专属你的个人AI助理",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -35,6 +35,7 @@ export default function RootLayout({
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script src="//js.users.51.la/21657583.js" defer></script>
       </head>
       <body>{children}</body>
     </html>
